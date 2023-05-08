@@ -1,0 +1,50 @@
+.friends{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 370px;
+}
+
+.friendList {
+  margin: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px #c6cccced;
+  padding: 20px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
